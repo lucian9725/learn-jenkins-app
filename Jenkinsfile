@@ -23,7 +23,7 @@ pipeline {
 
         stage('Test'){
             steps {
-                sh 'test -f build/index.hentl'
+                sh 'test -f build/index.html'
             }
         }
     }
